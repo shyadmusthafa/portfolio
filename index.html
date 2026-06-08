@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO -->
+  <title>Shyad Musthafa A | Software Engineer — Portfolio</title>
+  <meta name="description" content="Software Engineer specializing in Angular, PHP, Laravel, and SQL. Enterprise applications including HR, Asset, Rental, and Agreement Management systems.">
+  <meta name="keywords" content="software engineer, full stack developer, angular, laravel, php, sql, chettinad, portfolio">
+  <meta name="author" content="Shyad Musthafa A">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yourdomain.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shyad Musthafa A | Software Engineer">
+  <meta property="og:description" content="Full Stack Developer building enterprise HR, Asset, Rental & Agreement management systems.">
+  <meta property="og:image" content="img/shyad profile.jpg">
+  <meta property="og:url" content="https://yourdomain.com/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shyad Musthafa A | Software Engineer">
+  <meta name="twitter:description" content="Full Stack Developer specializing in Angular, PHP, Laravel & enterprise applications.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Shyad Musthafa A",
+    "jobTitle": "Software Engineer",
+    "url": "https://yourdomain.com",
+    "email": "shyadmusthafa001@gmail.com",
+    "telephone": "+919384148769",
+    "sameAs": [
+      "https://linkedin.com/in/shyad-musthafa-a-9931031b6"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader" role="status" aria-label="Loading">
+    <div class="loader-logo">SM - Portfolio</div>
+    <div class="loader-spinner" aria-hidden="true"></div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="sr-only">Loading portfolio...</span>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="main-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="Home">SM - Portfolio</a>
+
+      <div id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certifications" class="nav-link">Certs</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle dark mode" type="button">
+          <i class="bi bi-sun-fill icon-sun"></i>
+          <i class="bi bi-moon-fill icon-moon"></i>
+        </button>
+        <button id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" type="button">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" aria-label="Hero">
+      <div class="hero-bg-shapes" aria-hidden="true">
+        <div class="hero-shape hero-shape-1"></div>
+        <div class="hero-shape hero-shape-2"></div>
+      </div>
+      <div class="container-narrow">
+        <div class="hero-grid">
+          <div data-animate="fade-right">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 id="hero-name">Shyad Musthafa A</h1>
+            <p class="hero-designation"><span id="typed-text"></span><span class="typed-cursor">|</span></p>
+            <p id="hero-intro">Software Engineer specializing in Angular, PHP, Laravel, and enterprise web applications.</p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn-primary btn-glow">
+                <i class="bi bi-send"></i> Hire Me
+              </a>
+              <a href="#projects" class="btn btn-outline-primary">
+                <i class="bi bi-grid"></i> View Projects
+              </a>
+              <a id="resume-btn" href="img/Shyad ATS.pdf" class="btn btn-outline-primary" download>
+                <i class="bi bi-download"></i> Resume
+              </a>
+            </div>
+            <div class="social-links" aria-label="Social media links"></div>
+          </div>
+          <div class="hero-image-wrap" data-animate="fade-left">
+            <div class="hero-image-ring">
+              <img id="hero-avatar" src="" alt="Profile photo" width="340" height="340">
+            </div>
+            <div class="hero-status">
+              <span class="status-dot" aria-hidden="true"></span>
+              Available for Freelance
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section id="stats" aria-label="Statistics">
+      <div class="container-narrow">
+        <div id="stats-grid"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section" aria-label="About">
+      <div class="container-narrow">
+        <header class="section-header" data-animate="fade-up">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title">Crafting Digital Excellence</h2>
+          <p class="section-subtitle">Passionate about building technology that makes a difference</p>
+        </header>
+        <div class="about-grid">
+          <div data-animate="fade-right">
+            <p id="about-summary"></p>
+            <div id="personal-info-grid"></div>
+          </div>
+          <div class="achievements-box glass-card" data-animate="fade-left">
+            <h4><i class="bi bi-trophy-fill"></i> Achievements & Milestones</h4>
+            <ul id="achievements-list"></ul>
+          </div>
+        </div>
+
+        <h3 class="subsection-title" data-animate="fade-up">Career Journey</h3>
+        <div id="journey-timeline" class="timeline"></div>
+
+        <h3 class="subsection-title" data-animate="fade-up">Education</h3>
+        <div id="education-timeline" class="timeline"></div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt" aria-label="Skills">
+      <div class="container-narrow">
+        <header class="section-header" data-animate="fade-up">
+          <span class="section-label">Expertise</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Technologies and tools I work with daily</p>
+        </header>
+        <div id="skill-tabs" role="tablist" aria-label="Skill categories"></div>
+        <div id="skill-panels"></div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section" aria-label="Experience">
+      <div class="container-narrow">
+        <header class="section-header" data-animate="fade-up">
+          <span class="section-label">Career</span>
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-subtitle">A track record of delivering impactful solutions</p>
+        </header>
+        <div id="experience-timeline"></div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt" aria-label="Projects">
+      <div class="container-narrow">
+        <header class="section-header" data-animate="fade-up">
+          <span class="section-label">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Selected work showcasing technical expertise</p>
+        </header>
+
+        <div class="filter-bar" data-animate="fade-up">
+          <div class="filter-buttons" role="group" aria-label="Project filters">
+            <button class="project-filter active" data-filter="all" type="button">All</button>
+            <button class="project-filter" data-filter="hr" type="button">HR Systems</button>
+            <button class="project-filter" data-filter="asset" type="button">Asset</button>
+            <button class="project-filter" data-filter="rental" type="button">Rental</button>
+            <button class="project-filter" data-filter="agreement" type="button">Agreement</button>
+            <button class="project-filter" data-filter="port" type="button">Port</button>
+          </div>
+          <div class="search-box">
+            <i class="bi bi-search" aria-hidden="true"></i>
+            <input type="search" id="project-search" placeholder="Search projects..." aria-label="Search projects">
+          </div>
+        </div>
+
+        <div id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section" aria-label="Certifications">
+      <div class="container-narrow">
+        <header class="section-header" data-animate="fade-up">
+          <span class="section-label">Credentials</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">Academic qualifications and credentials</p>
+        </header>
+        <div id="cert-grid"></div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section section-alt" aria-label="Services">
+      <div class="container-narrow">
+        <header class="section-header" data-animate="fade-up">
+          <span class="section-label">What I Offer</span>
+          <h2 class="section-title">Services</h2>
+          <p class="section-subtitle">Professional services tailored to your needs</p>
+        </header>
+        <div id="services-grid"></div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section section-alt" aria-label="Blog">
+      <div class="container-narrow">
+        <header class="section-header" data-animate="fade-up">
+          <span class="section-label">Insights</span>
+          <h2 class="section-title">Latest Articles</h2>
+          <p class="section-subtitle">Thoughts on software architecture and engineering</p>
+        </header>
+
+        <div class="filter-bar" data-animate="fade-up">
+          <div class="filter-buttons" role="group" aria-label="Blog category filters">
+            <button class="blog-filter active" data-filter="all" type="button">All</button>
+            <button class="blog-filter" data-filter="architecture" type="button">Architecture</button>
+            <button class="blog-filter" data-filter="backend" type="button">Backend</button>
+            <button class="blog-filter" data-filter="frontend" type="button">Frontend</button>
+            <button class="blog-filter" data-filter="database" type="button">Database</button>
+          </div>
+          <div class="search-box">
+            <i class="bi bi-search" aria-hidden="true"></i>
+            <input type="search" id="blog-search" placeholder="Search articles..." aria-label="Search articles">
+          </div>
+        </div>
+
+        <div id="blog-grid"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" aria-label="Contact">
+      <div class="container-narrow">
+        <header class="section-header" data-animate="fade-up">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-subtitle">Let's discuss your next project</p>
+        </header>
+
+        <div class="contact-grid">
+          <div data-animate="fade-right">
+            <div class="contact-info-cards">
+              <div class="contact-info-card glass-card">
+                <div class="icon-wrap"><i class="bi bi-envelope"></i></div>
+                <div><span>Email</span><strong id="contact-email">shyadmusthafa001@gmail.com</strong></div>
+              </div>
+              <div class="contact-info-card glass-card">
+                <div class="icon-wrap"><i class="bi bi-telephone"></i></div>
+                <div><span>Phone</span><strong id="contact-phone">+91 93841 48769</strong></div>
+              </div>
+              <div class="contact-info-card glass-card">
+                <div class="icon-wrap"><i class="bi bi-geo-alt"></i></div>
+                <div><span>Location</span><strong id="contact-location">Karur, Tamil Nadu, India</strong></div>
+              </div>
+            </div>
+            <div class="social-links mt-4" style="margin-top:1.5rem" aria-label="Social media"></div>
+            <div class="map-wrap" data-animate="fade-up">
+              <iframe id="map-frame" title="Office location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap glass-card" data-animate="fade-left">
+            <form id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-name">Full Name</label>
+                  <input type="text" id="form-name" class="form-control" placeholder="John Doe" required autocomplete="name">
+                  <p id="error-name" class="form-error d-none">Please enter your name</p>
+                </div>
+                <div class="form-group">
+                  <label for="form-email">Email Address</label>
+                  <input type="email" id="form-email" class="form-control" placeholder="john@example.com" required autocomplete="email">
+                  <p id="error-email" class="form-error d-none">Please enter a valid email</p>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="form-subject">Subject</label>
+                <input type="text" id="form-subject" class="form-control" placeholder="Project Inquiry" required>
+                <p id="error-subject" class="form-error d-none">Please enter a subject</p>
+              </div>
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" class="form-control" placeholder="Tell me about your project..." required></textarea>
+                <p id="error-message" class="form-error d-none">Please enter your message</p>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                <i class="bi bi-send"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container-narrow">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">SM - Portfolio</a>
+          <p>Full Stack Developer building enterprise web applications with Angular, PHP, Laravel, and SQL.</p>
+          <div class="social-links" aria-label="Social media links"></div>
+        </div>
+        <div class="footer-links">
+          <h5>Navigation</h5>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h5>Resources</h5>
+          <a href="#blog">Blog</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#services">Services</a>
+          <a id="resume-btn-footer" href="img/Shyad ATS.pdf" download>Resume</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="footer-year"></span> <span id="footer-name">Shyad Musthafa A</span>. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Detail Modal -->
+  <div id="project-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modal-title">Project Title</h3>
+        <button class="modal-close" data-close-modal aria-label="Close modal" type="button">
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img id="modal-image" src="" alt="Project screenshot">
+        <p id="modal-desc"></p>
+        <div id="modal-tags"></div>
+        <div class="modal-actions">
+          <a id="modal-live" href="#" class="btn btn-primary" target="_blank" rel="noopener">
+            <i class="bi bi-box-arrow-up-right"></i> Live Demo
+          </a>
+          <a id="modal-source" href="#" class="btn btn-outline-primary" target="_blank" rel="noopener">
+            <i class="bi bi-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Analytics Dashboard -->
+  <button id="analytics-btn" aria-label="Open analytics dashboard" type="button">
+    <i class="bi bi-bar-chart-line"></i>
+  </button>
+
+  <div id="analytics-panel" class="analytics-panel" role="dialog" aria-modal="true" aria-label="Analytics dashboard">
+    <div class="analytics-content">
+      <div class="analytics-header">
+        <div>
+          <h3>Portfolio Analytics</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem">Real-time performance insights</p>
+        </div>
+        <button class="modal-close" data-close-analytics aria-label="Close analytics" type="button">
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+
+      <div class="analytics-stats">
+        <div class="analytics-stat glass-card">
+          <div class="value" id="analytics-views">0</div>
+          <div class="label">Page Views</div>
+        </div>
+        <div class="analytics-stat glass-card">
+          <div class="value" id="analytics-visitors">0</div>
+          <div class="label">Unique Visitors</div>
+        </div>
+        <div class="analytics-stat glass-card">
+          <div class="value" id="analytics-session">0</div>
+          <div class="label">Avg. Session</div>
+        </div>
+        <div class="analytics-stat glass-card">
+          <div class="value" id="analytics-bounce">0</div>
+          <div class="label">Bounce Rate</div>
+        </div>
+      </div>
+
+      <div class="charts-grid">
+        <div class="chart-card full glass-card">
+          <h5>Monthly Page Views</h5>
+          <canvas id="chart-views" height="120"></canvas>
+        </div>
+        <div class="chart-card glass-card">
+          <h5>Traffic Sources</h5>
+          <canvas id="chart-traffic" height="200"></canvas>
+        </div>
+        <div class="chart-card glass-card">
+          <h5>Top Projects by Views</h5>
+          <canvas id="chart-projects" height="200"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form Success Toast -->
+  <div id="form-toast" role="alert" aria-live="polite">
+    <i class="bi bi-check-circle"></i> Message sent successfully!
+  </div>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" aria-label="Back to top" type="button">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
+  <script>
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

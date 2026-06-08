@@ -1,0 +1,13 @@
+{
+  "name": "shyad-portfolio",
+  "version": "1.0.0",
+  "description": "Premium enterprise-grade personal portfolio template",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "npx --yes serve ."
+  },
+  "devDependencies": {
+    "typescript": "~4.9.5"
+  }
+}
