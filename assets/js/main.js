@@ -218,32 +218,32 @@ function renderContent() {
         .map((a) => `<li><i class="bi bi-trophy"></i>${a}</li>`)
         .join('');
     // Journey timeline
-    // $('#journey-timeline').innerHTML = d.about.journey
-    //     .map((j, i) => `
-    // <div class="timeline-item ${i % 2 === 0 ? 'left' : 'right'}" data-animate="fade-${i % 2 === 0 ? 'right' : 'left'}">
-    //   <div class="timeline-dot"></div>
-    //   <div class="timeline-content glass-card">
-    //     <span class="timeline-period">${j.period}</span>
-    //     <h4>${j.title}</h4>
-    //     <p class="timeline-subtitle">${j.subtitle}</p>
-    //     <p>${j.description}</p>
-    //     ${j.highlights ? `<ul>${j.highlights.map((h) => `<li>${h}</li>`).join('')}</ul>` : ''}
-    //   </div>
-    // </div>`)
-    //     .join('');
+    $('#journey-timeline').innerHTML = d.about.journey
+        .map((j, i) => `
+    <div class="timeline-item ${i % 2 === 0 ? 'left' : 'right'}" data-animate="fade-${i % 2 === 0 ? 'right' : 'left'}">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content glass-card">
+        <span class="timeline-period">${j.period}</span>
+        <h4>${j.title}</h4>
+        <p class="timeline-subtitle">${j.subtitle}</p>
+        <p>${j.description}</p>
+        ${j.highlights ? `<ul>${j.highlights.map((h) => `<li>${h}</li>`).join('')}</ul>` : ''}
+      </div>
+    </div>`)
+        .join('');
     // Education
-    // $('#education-timeline').innerHTML = d.about.education
-    //     .map((e, i) => `
-    // <div class="timeline-item ${i % 2 === 0 ? 'left' : 'right'}" data-animate="fade-${i % 2 === 0 ? 'right' : 'left'}">
-    //   <div class="timeline-dot"></div>
-    //   <div class="timeline-content glass-card">
-    //     <span class="timeline-period">${e.period}</span>
-    //     <h4>${e.title}</h4>
-    //     <p class="timeline-subtitle">${e.subtitle}</p>
-    //     <p>${e.description}</p>
-    //   </div>
-    // </div>`)
-    //     .join('');
+    $('#education-timeline').innerHTML = d.about.education
+        .map((e, i) => `
+    <div class="timeline-item ${i % 2 === 0 ? 'left' : 'right'}" data-animate="fade-${i % 2 === 0 ? 'right' : 'left'}">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content glass-card">
+        <span class="timeline-period">${e.period}</span>
+        <h4>${e.title}</h4>
+        <p class="timeline-subtitle">${e.subtitle}</p>
+        <p>${e.description}</p>
+      </div>
+    </div>`)
+        .join('');
     // Skills
     const tabsContainer = $('#skill-tabs');
     const panelsContainer = $('#skill-panels');
