@@ -201,7 +201,7 @@ export const portfolioData: PortfolioData = {
       title: 'Human Resource Management System',
       description:
         'Employee lifecycle management including onboarding, attendance, payroll, and separation. Time management modules for leave, shifts, and holidays with automated payroll processing, payslip generation, and reports.',
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop',
+      image: 'hris.png',
       category: 'hr',
       tags: ['Angular', 'PHP Laravel', 'SQL', 'HeidiSQL'],
       liveUrl: 'https://hris.chettinad.com/',
@@ -212,7 +212,7 @@ export const portfolioData: PortfolioData = {
       title: 'PGHRIS (HR & Payroll Management)',
       description:
         'Employee and student payroll system with onboarding, stipend processing, and leave workflows. Attendance-based salary calculation using Biometric, Department, and Government (NMC) data with lowest attendance count logic.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+      image: 'pghris.png',
       category: 'hr',
       tags: ['Angular', 'PHP Laravel', 'SQL', 'Payroll'],
       liveUrl: 'https://stuhris.chettinad.com',
@@ -223,7 +223,7 @@ export const portfolioData: PortfolioData = {
       title: 'Asset Management System',
       description:
         'Asset purchase, allocation, transfer, and employee-wise tracking. Automated product imports via cron jobs, asset clearance workflow during employee relieving, and XML export module for Tally accounting integration.',
-      image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?w=600&h=400&fit=crop',
+     image: 'Asset_mgt_project.png',
       category: 'asset',
       tags: ['Angular', 'Laravel', 'Cron Jobs', 'XML', 'Tally'],
       liveUrl: 'http://asset.care.edu.in/',
@@ -234,7 +234,7 @@ export const portfolioData: PortfolioData = {
       title: 'Rental Management System',
       description:
         'Tenant onboarding with OTP-based authentication, building and room management with fixed rent configuration, automated monthly billing with GST and CC Avenue payment integration, and tenant dashboard for bills and payment history.',
-      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop',
+     image: 'Rental Management System.png',
       category: 'rental',
       tags: ['PHP Laravel', 'CC Avenue', 'OTP Auth', 'GST Billing'],
       liveUrl: 'https://rental.chettinad.com:74/',
@@ -245,7 +245,7 @@ export const portfolioData: PortfolioData = {
       title: 'Agreement Management System',
       description:
         'Django-based system for SPO, CFA, and Transport agreements with data entry, attachments, approval workflows, and automated email notifications for agreement movement tracking.',
-      image: 'https://images.unsplash.com/photo-1589829545855-d10d557cf95f?w=600&h=400&fit=crop',
+      image: 'aggrement.png',
       category: 'agreement',
       tags: ['Python', 'Django', 'SQL', 'Workflows'],
       liveUrl: 'http://agreement.chettinad.com:177/',
