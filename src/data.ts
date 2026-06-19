@@ -269,7 +269,7 @@ export const portfolioData: PortfolioData = {
       title: 'B.E. Computer Science Engineering',
       provider: 'Anna University — CCET Karur',
       date: '2022',
-      image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=280&fit=crop',
+      image: 'ccet_college.jfif',
       credentialUrl: '#',
     },
     {
@@ -277,7 +277,7 @@ export const portfolioData: PortfolioData = {
       title: 'Diploma in Computer Science Engineering',
       provider: 'DOTE — Government Polytechnic College, Karur',
       date: '2019',
-      image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&h=280&fit=crop',
+      image: 'gpc_karur.jpg',
       credentialUrl: '#',
     },
     {
@@ -285,7 +285,7 @@ export const portfolioData: PortfolioData = {
       title: 'SSLC — Science Stream',
       provider: 'Vivekananda Higher Secondary School, Karur',
       date: '2016',
-      image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=280&fit=crop',
+      image: 'vhss.png',
       credentialUrl: '#',
     },
   ],
