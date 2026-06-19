@@ -204,7 +204,7 @@ export const portfolioData = {
             id: 'p2',
             title: 'PGHRIS (HR & Payroll Management)',
             description: 'Employee and student payroll system with onboarding, stipend processing, and leave workflows. Attendance-based salary calculation using Biometric, Department, and Government (NMC) data with lowest attendance count logic.',
-           image: 'img/pghris.png',
+            image: 'img/pghris.png',
             category: 'hr',
             tags: ['Angular', 'PHP Laravel', 'SQL', 'Payroll'],
             liveUrl: 'https://stuhris.chettinad.com',
@@ -212,6 +212,16 @@ export const portfolioData = {
         },
         {
             id: 'p3',
+            title: 'PGHRIS (HR & Payroll Management)',
+            description: 'Employee and student payroll system with onboarding, stipend processing, and leave workflows. Attendance-based salary calculation using Biometric, Department, and Government (NMC) data with lowest attendance count logic.',
+           image: 'img/pghris.png',
+            category: 'hr',
+            tags: ['Angular', 'PHP Laravel', 'SQL', 'Payroll'],
+            liveUrl: 'https://stuhris.chettinad.com',
+            featured: true,
+        },
+        {
+            id: 'p4',
             title: 'Asset Management System',
             description: 'Asset purchase, allocation, transfer, and employee-wise tracking. Automated product imports via cron jobs, asset clearance workflow during employee relieving, and XML export module for Tally accounting integration.',
             image: 'img/Asset_mgt_project.png',
@@ -221,7 +231,7 @@ export const portfolioData = {
             featured: true,
         },
         {
-            id: 'p4',
+            id: 'p5',
             title: 'Rental Management System',
             description: 'Tenant onboarding with OTP-based authentication, building and room management with fixed rent configuration, automated monthly billing with GST and CC Avenue payment integration, and tenant dashboard for bills and payment history.',
             image: 'img/Rental Management System.png',
@@ -231,7 +241,7 @@ export const portfolioData = {
             featured: false,
         },
         {
-            id: 'p5',
+            id: 'p6',
             title: 'Agreement Management System',
             description: 'Django-based system for SPO, CFA, and Transport agreements with data entry, attachments, approval workflows, and automated email notifications for agreement movement tracking.',
             image: 'img/aggrement.png',
@@ -241,7 +251,7 @@ export const portfolioData = {
             featured: false,
         },
         {
-            id: 'p6',
+            id: 'p7',
             title: 'Chettinad PortBird',
             description: 'Port operations platform with vessel scheduling, cargo tracking, billing, gate pass management, and marine services. Real-time operational dashboards, role-based access control, and optimized MS SQL backend services.',
             image: 'img/Dashboard _ Chettinad PortBird.png',
