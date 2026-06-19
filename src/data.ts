@@ -256,7 +256,7 @@ export const portfolioData: PortfolioData = {
       title: 'Chettinad PortBird',
       description:
         'Port operations platform with vessel scheduling, cargo tracking, billing, gate pass management, and marine services. Real-time operational dashboards, role-based access control, and optimized MS SQL backend services.',
-      image: 'https://images.unsplash.com/photo-1494412574647-9d49cdb45f24?w=600&h=400&fit=crop',
+      image: 'img/Dashboard _ Chettinad PortBird.png',
       category: 'port',
       tags: ['PHP', 'Ajax', 'MS SQL Server', 'Dashboards'],
       liveUrl: 'https://portbird.chettinad.com:66/',
